@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0BBB77A4227AE2FB007FCFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB77A3227AE2FB007FCFD4 /* AppDelegate.swift */; };
-		0BBB77A6227AE2FB007FCFD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB77A5227AE2FB007FCFD4 /* ViewController.swift */; };
+		0BBB77A6227AE2FB007FCFD4 /* mapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB77A5227AE2FB007FCFD4 /* mapVC.swift */; };
 		0BBB77A9227AE2FB007FCFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBB77A7227AE2FB007FCFD4 /* Main.storyboard */; };
 		0BBB77AC227AE2FB007FCFD4 /* My_Travel_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB77AA227AE2FB007FCFD4 /* My_Travel_Book.xcdatamodeld */; };
 		0BBB77AE227AE2FC007FCFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BBB77AD227AE2FC007FCFD4 /* Assets.xcassets */; };
 		0BBB77B1227AE2FC007FCFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BBB77AF227AE2FC007FCFD4 /* LaunchScreen.storyboard */; };
+		0BBB77BE227AEFF2007FCFD4 /* tableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBB77BD227AEFF2007FCFD4 /* tableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BBB77A0227AE2FB007FCFD4 /* My Travel Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Travel Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBB77A3227AE2FB007FCFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BBB77A5227AE2FB007FCFD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BBB77A5227AE2FB007FCFD4 /* mapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapVC.swift; sourceTree = "<group>"; };
 		0BBB77A8227AE2FB007FCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BBB77AB227AE2FB007FCFD4 /* My_Travel_Book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = My_Travel_Book.xcdatamodel; sourceTree = "<group>"; };
 		0BBB77AD227AE2FC007FCFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BBB77B0227AE2FC007FCFD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BBB77B2227AE2FC007FCFD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BBB77BD227AEFF2007FCFD4 /* tableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				0BBB77A3227AE2FB007FCFD4 /* AppDelegate.swift */,
-				0BBB77A5227AE2FB007FCFD4 /* ViewController.swift */,
+				0BBB77A5227AE2FB007FCFD4 /* mapVC.swift */,
 				0BBB77A7227AE2FB007FCFD4 /* Main.storyboard */,
 				0BBB77AD227AE2FC007FCFD4 /* Assets.xcassets */,
 				0BBB77AF227AE2FC007FCFD4 /* LaunchScreen.storyboard */,
 				0BBB77B2227AE2FC007FCFD4 /* Info.plist */,
 				0BBB77AA227AE2FB007FCFD4 /* My_Travel_Book.xcdatamodeld */,
+				0BBB77BD227AEFF2007FCFD4 /* tableVC.swift */,
 			);
 			path = "My Travel Book";
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BBB77A6227AE2FB007FCFD4 /* ViewController.swift in Sources */,
+				0BBB77A6227AE2FB007FCFD4 /* mapVC.swift in Sources */,
+				0BBB77BE227AEFF2007FCFD4 /* tableVC.swift in Sources */,
 				0BBB77AC227AE2FB007FCFD4 /* My_Travel_Book.xcdatamodeld in Sources */,
 				0BBB77A4227AE2FB007FCFD4 /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7CDPENKR7;
 				INFOPLIST_FILE = "My Travel Book/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7CDPENKR7;
 				INFOPLIST_FILE = "My Travel Book/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
